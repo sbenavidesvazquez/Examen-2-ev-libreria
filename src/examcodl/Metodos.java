@@ -28,10 +28,10 @@ public class Metodos {
     public void direccion() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("tA4IyXXlxiOg9tGVSpUmNsfzE")
-                .setOAuthConsumerSecret("QjYGfbpARhRdSoKQMIeKZ2D5HDHQ4BeV6IBOfwC7OSyjx2RXfV")
-                .setOAuthAccessToken("2179322278-wW1IZZc9ELUhqnGr79O3ot0ZbSHye48oI4LczOu")
-                .setOAuthAccessTokenSecret("qyHJTFtUp4vaD61IPqdLnmVcCl3Jy2ItILSShWFXMKzWQ");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
     }
 
     /**
@@ -40,10 +40,10 @@ public class Metodos {
     public void lineaTiempo() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("tA4IyXXlxiOg9tGVSpUmNsfzE")
-                .setOAuthConsumerSecret("QjYGfbpARhRdSoKQMIeKZ2D5HDHQ4BeV6IBOfwC7OSyjx2RXfV")
-                .setOAuthAccessToken("2179322278-wW1IZZc9ELUhqnGr79O3ot0ZbSHye48oI4LczOu")
-                .setOAuthAccessTokenSecret("qyHJTFtUp4vaD61IPqdLnmVcCl3Jy2ItILSShWFXMKzWQ");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 
         //getting timeline
@@ -68,10 +68,10 @@ public class Metodos {
     public void busqueda() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("tA4IyXXlxiOg9tGVSpUmNsfzE")
-                .setOAuthConsumerSecret("QjYGfbpARhRdSoKQMIeKZ2D5HDHQ4BeV6IBOfwC7OSyjx2RXfV")
-                .setOAuthAccessToken("2179322278-wW1IZZc9ELUhqnGr79O3ot0ZbSHye48oI4LczOu")
-                .setOAuthAccessTokenSecret("qyHJTFtUp4vaD61IPqdLnmVcCl3Jy2ItILSShWFXMKzWQ");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
         String twit = JOptionPane.showInputDialog("¿Que twit quiere buscar?");
         Query query = new Query(twit);//Coloca lo que buscas
@@ -92,10 +92,10 @@ public class Metodos {
     public void twiteo() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("tA4IyXXlxiOg9tGVSpUmNsfzE")
-                .setOAuthConsumerSecret("QjYGfbpARhRdSoKQMIeKZ2D5HDHQ4BeV6IBOfwC7OSyjx2RXfV")
-                .setOAuthAccessToken("2179322278-wW1IZZc9ELUhqnGr79O3ot0ZbSHye48oI4LczOu")
-                .setOAuthAccessTokenSecret("qyHJTFtUp4vaD61IPqdLnmVcCl3Jy2ItILSShWFXMKzWQ");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("x")
+                .setOAuthAccessTokenSecret("x");
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
         String twit = JOptionPane.showInputDialog("Que quere twittear");
         Status status = null;
